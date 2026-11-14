@@ -1,0 +1,50 @@
+{
+  "process": [
+    {
+      "native_lines": [
+        153,
+        181,
+        186,
+        297,
+        302,
+        319,
+        349,
+        350,
+        392,
+        393
+      ],
+      "fact": "Model fixed initial path/cache test issues, ran62 feature and160 core checks; full suite9 plugin failures separately compared to clean initial tree. Actual scan demo shows old finding excluded and new/cross-file findings retained. Observable actions only."
+    }
+  ],
+  "requirements": [
+    {
+      "files": [
+        "detect_secrets/core/untrusted_baseline.py"
+      ],
+      "facts": "Pure local candidate parse then approved identity intersection, trusted flags, no config imports/settings/cache mutations, normalized paths and duplicate rejection."
+    },
+    {
+      "files": [
+        "tests/core/untrusted_baseline_test.py",
+        "docs/untrusted-baselines.md",
+        "README.md"
+      ],
+      "facts": "Offline native end-to-end scan, side-effect counters, validation and integration documentation present."
+    }
+  ],
+  "independent_evidence": [
+    "verification/acceptance-r1/independent-acceptance.json",
+    "verification/git-replay-r2/upstream-core.json",
+    "acceptance-contract-review.json"
+  ],
+  "excluded_errors": [
+    "Initial replay lacks Git metadata; r2 only adds local index, all160 core pass.",
+    "Exploratory explicit-null rejection asserts stronger behavior than prompt, no penalty.",
+    "Native full plugin suite9 failures not independently attributed as product regressions; no full upstream pass claimed."
+  ],
+  "time": "2026-11-14T13:13:30+08:00",
+  "uid": 1741,
+  "frozen_commit": "9941f94bb948c4af472e7f4492196ecb3b7ea0ec",
+  "native_trace_sha256": "aa6a310b64ef79f79a86c92d4268c70fa2fa50360316d50f54f5075c958ee674",
+  "no_model_source_changes_after_freeze": true
+}

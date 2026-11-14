@@ -1,0 +1,20 @@
+{
+  "independent": {
+    "passed": 22,
+    "failed": 0
+  },
+  "upstream_core": {
+    "passed": 160,
+    "failed": 0
+  },
+  "recorded_model_feature_tests": {
+    "passed": 62,
+    "failed": 0
+  },
+  "exploratory_null": {
+    "passed": 0,
+    "failed": 1,
+    "scored": false,
+    "reason": "Stronger assertion not explicitly required; None accepted as omitted slim line number"
+  }
+}

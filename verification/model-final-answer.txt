@@ -1,0 +1,34 @@
+完成。下面是这次改动的总结。
+
+## 新增接口
+
+**`detect_secrets/core/untrusted_baseline.py` → `load_untrusted_baseline(candidate, approved)`**
+
+命名沿用项目的 `baseline.load` / `load_from_baseline` 习惯，作为独立的显式 opt-in 接口；原有 `baseline.load` 的可信加载与扫描行为完全未动。该模块不 import `settings`、`importlib`、`scan` 任何一个，只依赖 `PotentialSecret`、`SecretsCollection`、`Version` 和路径工具。
+
+### 信任边界如何落实
+
+- **候选零配置权限**：只读取 `version` 和 `results`；`plugins_used`、`filters_used`、`exclude`、`word_list`、模型路径一律不看，不导入任何 Python 路径、不打开任何引用文件，也不碰全局 `Settings` 和插件/过滤器 lru_cache（测试用 `cache_info()` 前后快照和导入计数器双重证明）。
+- **匹配三要素**：文件名（归一化后）+ 检测器 `type` + `hashed_secret` 全部命中已批准记录才进入豁免集合，`line_number` 不参与身份。新哈希、跨文件复制、换检测器类型都被挡在豁免集外；候选删记录只会减少豁免，"相同哈希"永远不会变成跨文件白名单。
+- **审核结论只来自已批准记录**：候选里 `is_secret`/`is_verified` 写 true 或 false 都被丢弃；输出对象 `secret_value=None`，JSON 序列化不含明文。
+- **先验证后建集合**：整份文档先解析进本地结构，全部合法才构造返回值，任何一条坏记录（包括列表末尾的）都整体抛 `InvalidBaselineError`，不返回半成品，两个输入均不被修改。
+
+拒绝项覆盖：版本缺失/格式错/非当前版本；`results` 结构非法；哈希不是 40 位小写十六进制 SHA-1；行号是 bool、非 int、0 或负数（允许省略）；`..` 越根、绝对路径、Windows 盘符、UNC（`\\` 和 `//`）、NUL 字节；正斜杠/反斜杠按同一规则归一，归一后碰撞的文件项和同文件内重复 `(type, hash)` 发现都报错而非靠顺序覆盖。
+
+## 测试（62 个，全离线，100% 覆盖率）
+
+`tests/core/untrusted_baseline_test.py` 包含你要求的全部场景：
+
+1. **真实扫描链路**：临时目录里用内置 `AWSKeyDetector` 扫合成假凭据（AWS 文档示例 key），新接口结果直接走现有 `SecretsCollection.__sub__` 差集——行号漂移的旧发现被豁免，PR 新塞的哈希和跨文件复制仍报警。
+2. **导入副作用计数器**：假插件每次被 import 就递增计数文件，先自证机制有效，再证明候选配置没有任何执行机会。
+3. 行号漂移、审核标志双向伪造（含未审核结论的继承）、跨文件复用、换类型、坏记录在列表末尾、连续调用隔离、设置与缓存零变化。
+
+## 文档
+
+- 新增 `docs/untrusted-baselines.md`：明确"候选文件不是审批来源"，给出受保护分支取已批准基线 → 不可信加载 → 可信策略扫描 → 差集报警的完整接入步骤和校验清单。
+- `README.md` 增加 "Handling an Untrusted Baseline" 小节；`CHANGELOG.md` 加 Unreleased 条目。
+
+## 验证结果
+
+- 新测试 62 passed；`tests/core` 全量 160 passed；两个新文件 flake8 干净、mypy 无错误、coverage 100%。
+- 全仓库测试中有 9 个 `tests/plugins/*_test.py` 的在线验证类失败，已用 `git stash` 对照确认在改动前的干净树上同样失败（环境里 responses/requests 版本问题），与本次改动无关。

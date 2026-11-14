@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?><testsuites name="pytest tests"><testsuite name="pytest" errors="0" failures="1" skipped="0" tests="1" time="0.829" timestamp="2026-11-14T13:09:58.131312+08:00" hostname="DESKTOP-BPAMAV8"><testcase classname="evaluation.uf-20261114-replace1741-baseline-trust.verification.explicit-null-r3.test_baseline_explicit_null_review" name="test_explicit_null_is_not_a_positive_line_number" time="0.001"><failure message="Failed: DID NOT RAISE &lt;class 'detect_secrets.exceptions.InvalidBaselineError'&gt;">..\test_baseline_explicit_null_review.py:13: in test_explicit_null_is_not_a_positive_line_number
+    with pytest.raises(InvalidBaselineError):
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+E   Failed: DID NOT RAISE &lt;class 'detect_secrets.exceptions.InvalidBaselineError'&gt;</failure></testcase></testsuite></testsuites>

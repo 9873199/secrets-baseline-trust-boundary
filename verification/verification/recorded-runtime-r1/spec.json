@@ -1,0 +1,66 @@
+{
+  "title": "Credential baseline review",
+  "directory": "D:\\hc\\userFeedback\\cache\\repairs-126-1730-1743-and-seven-20261114-r1\\seven\\evaluation\\uf-20261114-replace1741-baseline-trust\\recording\\r1",
+  "cwd": "D:\\hc\\userFeedback\\cache\\repairs-126-1730-1743-and-seven-20261114-r1\\seven\\evaluation\\uf-20261114-replace1741-baseline-trust\\verification\\git-replay-r2\\replay-source",
+  "capture": "wgc",
+  "console_start_delay_seconds": 15,
+  "environment": {
+    "PYTHONPATH": "D:\\hc\\userFeedback\\cache\\repairs-126-1730-1743-and-seven-20261114-r1\\seven\\evaluation\\uf-20261114-replace1741-baseline-trust\\verification\\git-replay-r2\\replay-source;D:\\hc\\userFeedback\\cache\\repairs-126-1730-1743-and-seven-20261114-r1\\seven\\evaluation\\uf-20261114-replace1741-baseline-trust\\verification\\git-replay-r2",
+    "PYTHONDONTWRITEBYTECODE": "1",
+    "PYTHONUTF8": "1"
+  },
+  "commands": [
+    {
+      "id": "scan-example",
+      "label": "Trusted approval and untrusted candidate",
+      "display": "python baseline-scan-example.py",
+      "argv": [
+        "D:\\hc\\userFeedback\\cache\\resume-seven-20261114-r2\\detect-secrets\\environment\\env\\Scripts\\python.exe",
+        "-B",
+        "D:\\hc\\userFeedback\\cache\\repairs-126-1730-1743-and-seven-20261114-r1\\seven\\evaluation\\uf-20261114-replace1741-baseline-trust\\verification\\git-replay-r2\\baseline-scan-example.py"
+      ],
+      "start_at_seconds": 0
+    },
+    {
+      "id": "boundaries",
+      "label": "Approval, path and configuration boundaries",
+      "display": "python -m pytest checks/test_untrusted_baseline_review.py -q",
+      "argv": [
+        "D:\\hc\\userFeedback\\cache\\resume-seven-20261114-r2\\detect-secrets\\environment\\env\\Scripts\\python.exe",
+        "-B",
+        "-m",
+        "pytest",
+        "D:\\hc\\userFeedback\\cache\\repairs-126-1730-1743-and-seven-20261114-r1\\seven\\evaluation\\uf-20261114-replace1741-baseline-trust\\verification\\git-replay-r2\\test_untrusted_baseline_review.py",
+        "--confcutdir=D:\\hc\\userFeedback\\cache\\repairs-126-1730-1743-and-seven-20261114-r1\\seven\\evaluation\\uf-20261114-replace1741-baseline-trust\\verification\\git-replay-r2",
+        "-q",
+        "--tb=no",
+        "--disable-warnings",
+        "--show-capture=no",
+        "--disable-socket",
+        "-p",
+        "no:cacheprovider"
+      ],
+      "start_at_seconds": 25
+    },
+    {
+      "id": "feature-tests",
+      "label": "Untrusted baseline integration regression",
+      "display": "python -m pytest tests/core/untrusted_baseline_test.py -q",
+      "argv": [
+        "D:\\hc\\userFeedback\\cache\\resume-seven-20261114-r2\\detect-secrets\\environment\\env\\Scripts\\python.exe",
+        "-B",
+        "-m",
+        "pytest",
+        "tests/core/untrusted_baseline_test.py",
+        "-q",
+        "--tb=no",
+        "--disable-warnings",
+        "--show-capture=no",
+        "--disable-socket",
+        "-p",
+        "no:cacheprovider"
+      ],
+      "start_at_seconds": 50
+    }
+  ]
+}

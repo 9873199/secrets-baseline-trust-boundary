@@ -1,0 +1,36 @@
+{
+  "time": "2026-11-14T13:13:30+08:00",
+  "uid": 1741,
+  "container": false,
+  "actual": {
+    "python": "3.14.3 (tags/v3.14.3:323c59a, Feb  3 2026, 16:04:56) [MSC v.1944 64 bit (AMD64)]",
+    "executable": "D:\\hc\\userFeedback\\cache\\resume-seven-20261114-r2\\detect-secrets\\environment\\env\\Scripts\\python.exe",
+    "modules": {
+      "detect_secrets": "D:\\hc\\userFeedback\\cache\\repairs-126-1730-1743-and-seven-20261114-r1\\seven\\evaluation\\uf-20261114-replace1741-baseline-trust\\verification\\git-replay-r2\\replay-source\\detect_secrets\\__init__.py",
+      "detect_secrets.core.untrusted_baseline": "D:\\hc\\userFeedback\\cache\\repairs-126-1730-1743-and-seven-20261114-r1\\seven\\evaluation\\uf-20261114-replace1741-baseline-trust\\verification\\git-replay-r2\\replay-source\\detect_secrets\\core\\untrusted_baseline.py"
+    }
+  },
+  "dependency_lock": "certifi==2026.10.23\ncharset-normalizer==3.5.2\ncolorama==0.4.6\ncoverage==7.17.3\nflake8==7.5.0\ngibberish-detector==0.1.1\nidna==3.20\niniconfig==2.3.1\nmccabe==0.7.0\nmypy==1.18.2\nmypy_extensions==1.2.0\npackaging==26.3\npathspec==1.1.1\npluggy==1.7.0\npyahocorasick==2.3.1\npycodestyle==2.15.0\npyflakes==4.1.0\nPygments==2.21.0\npytest==8.4.2\npytest-socket==0.8.1\nPyYAML==6.0.3\nrequests==2.34.2\nresponses==0.26.3\nsetuptools==84.2.1\ntyping_extensions==4.16.0\nunidiff==0.7.5\nurllib3==2.8.0\n",
+  "dependency_environment": "Reused the task dependency environment; exact pip freeze retained",
+  "frozen_source_import_verified": true,
+  "external_runtime_services": false,
+  "environment_limits": [
+    "Windows native packages; no container.",
+    "Independent acceptance and core regression offline sockets disabled; full upstream plugin network-verification tests not revalidated independently."
+  ],
+  "task_preparation": {
+    "time": "2026-11-14T11:54:08+08:00",
+    "status": "ENV_READY",
+    "uid": 1741,
+    "python": "D:\\hc\\userFeedback\\cache\\resume-seven-20261114-r2\\detect-secrets\\environment\\env\\Scripts\\python.exe",
+    "workspace": "D:\\hc\\userFeedback\\cache\\resume-seven-20261114-r2\\detect-secrets\\source-api-r2",
+    "source_path": "D:\\hc\\userFeedback\\cache\\resume-seven-20261114-r2\\detect-secrets\\source-api-r2",
+    "baseline_evidence": "D:\\hc\\userFeedback\\cache\\resume-seven-20261114-r2\\detect-secrets\\environment\\baseline-r2.json",
+    "dependency_lock": "D:\\hc\\userFeedback\\cache\\resume-seven-20261114-r2\\detect-secrets\\environment\\dependency-lock.stdout.log",
+    "container": false,
+    "runtime_services": false,
+    "offline_baseline": true,
+    "clean_source": true,
+    "prior_failure": "unidiff 1.0.1 incompatible with upstream fixtures; pinned upstream 0.7.5, originals retained"
+  }
+}

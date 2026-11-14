@@ -1,0 +1,7 @@
+{
+  "time": "2026-11-14T13:10:49+08:00",
+  "independent_core_scope": "22 independent boundary checks PASS;160 upstream core PASS after replay-only Git index setup.",
+  "exploratory_null_case": "Separate r3 asserts explicit null must fail. Prompt specifically rejects bool and non-positive integers; it does not require missing/slim line_number rejection, and source deliberately treats None as missing. This extra assertion is not used as an independently established product defect or score penalty.",
+  "replay_only_failures": "r1 core failures occurred because frozen replay has no .git; r2 initializes only local Git metadata, reruns unchanged frozen files and all160 pass.",
+  "no_frozen_source_changes": true
+}

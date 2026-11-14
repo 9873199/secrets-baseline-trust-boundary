@@ -1,0 +1,33 @@
+{
+  "time": "2026-11-14T13:03:36+08:00",
+  "uid": 1741,
+  "run_id": "uf-20261114-replace1741-baseline-trust",
+  "actual": {
+    "python": "3.14.3 (tags/v3.14.3:323c59a, Feb  3 2026, 16:04:56) [MSC v.1944 64 bit (AMD64)]",
+    "executable": "D:\\hc\\userFeedback\\cache\\resume-seven-20261114-r2\\detect-secrets\\environment\\env\\Scripts\\python.exe",
+    "modules": {
+      "detect_secrets": "D:\\hc\\userFeedback\\cache\\repairs-126-1730-1743-and-seven-20261114-r1\\seven\\evaluation\\uf-20261114-replace1741-baseline-trust\\verification\\git-replay-r2\\replay-source\\detect_secrets\\__init__.py",
+      "detect_secrets.core.untrusted_baseline": "D:\\hc\\userFeedback\\cache\\repairs-126-1730-1743-and-seven-20261114-r1\\seven\\evaluation\\uf-20261114-replace1741-baseline-trust\\verification\\git-replay-r2\\replay-source\\detect_secrets\\core\\untrusted_baseline.py"
+    }
+  },
+  "replay_source": "D:\\hc\\userFeedback\\cache\\repairs-126-1730-1743-and-seven-20261114-r1\\seven\\evaluation\\uf-20261114-replace1741-baseline-trust\\verification\\git-replay-r2\\replay-source",
+  "frozen_hashes_unchanged": true,
+  "replay_source_hashes_unchanged": true,
+  "dependency_environment": "Reused the task dependency environment; exact pip freeze retained",
+  "commands": [
+    {
+      "name": "git-init",
+      "exit_code": 0
+    },
+    {
+      "name": "git-add",
+      "exit_code": 0
+    },
+    {
+      "name": "upstream-core",
+      "exit_code": 0
+    }
+  ],
+  "score": null,
+  "semantic_review": "PENDING"
+}

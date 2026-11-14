@@ -1,0 +1,7 @@
+Credential scan using trusted built-in detector
+Approved old findings: 1
+Fresh findings: 3
+Candidate-authorized exemptions: 1
+Alerts retained: 2
+New credential and copied credential: both still reported
+Candidate plugin and exclude settings: not applied

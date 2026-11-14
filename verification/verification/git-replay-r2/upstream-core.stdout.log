@@ -1,0 +1,15 @@
+........................................................................ [ 45%]
+........................................................................ [ 90%]
+................                                                         [100%]
+============================== warnings summary ===============================
+tests/core/baseline_test.py::TestCreate::test_error_when_getting_git_tracked_files
+  D:\hc\userFeedback\cache\repairs-126-1730-1743-and-seven-20261114-r1\seven\evaluation\uf-20261114-replace1741-baseline-trust\verification\git-replay-r2\replay-source\detect_secrets\core\scan.py:74: UserWarning: Did not detect git repository. Try scanning all files instead.
+    log.warning('Did not detect git repository. Try scanning all files instead.')
+
+tests/core/usage/filters_usage_test.py::test_disable_filter
+  D:\hc\userFeedback\cache\repairs-126-1730-1743-and-seven-20261114-r1\seven\evaluation\uf-20261114-replace1741-baseline-trust\verification\git-replay-r2\replay-source\detect_secrets\core\usage\filters.py:192: UserWarning: Redundant --disable-filter "blah"
+    log.warning(f'Redundant --disable-filter "{name}"')
+
+-- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html
+- generated xml file: D:\hc\userFeedback\cache\repairs-126-1730-1743-and-seven-20261114-r1\seven\evaluation\uf-20261114-replace1741-baseline-trust\verification\git-replay-r2\core-results.xml -
+160 passed, 2 warnings in 32.76s

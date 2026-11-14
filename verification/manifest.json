@@ -1,0 +1,333 @@
+{
+  "created": "2026-11-14T13:13:30+08:00",
+  "reviewed": true,
+  "reviewer": "Codex primary reviewer, AI-assisted",
+  "uid": 1741,
+  "frozen_commit": "9941f94bb948c4af472e7f4492196ecb3b7ea0ec",
+  "native_trajectory_sha256": "aa6a310b64ef79f79a86c92d4268c70fa2fa50360316d50f54f5075c958ee674",
+  "files": [
+    {
+      "source": "D:\\hc\\userFeedback\\cache\\repairs-126-1730-1743-and-seven-20261114-r1\\seven\\evaluation\\uf-20261114-replace1741-baseline-trust\\freeze.json",
+      "path": "freeze.json",
+      "sha256": "6aa22fa2d2516a3d98fb9c18d9ee937b675e4490bed533e66a8e71ae206057a4"
+    },
+    {
+      "source": "D:\\hc\\userFeedback\\cache\\repairs-126-1730-1743-and-seven-20261114-r1\\seven\\evaluation\\uf-20261114-replace1741-baseline-trust\\freeze-audit.json",
+      "path": "freeze-audit.json",
+      "sha256": "b21df0c5e60be5cf4de91e0f1537b07751f2f35835e62c50cbb7099042eb4158"
+    },
+    {
+      "source": "D:\\hc\\userFeedback\\cache\\repairs-126-1730-1743-and-seven-20261114-r1\\seven\\evaluation\\uf-20261114-replace1741-baseline-trust\\environment-reviewed.json",
+      "path": "environment-reviewed.json",
+      "sha256": "21e59d28857a52c3495c14a297e87d24c3322902f2c9e5441ad8bbf9a5edebae"
+    },
+    {
+      "source": "D:\\hc\\userFeedback\\cache\\repairs-126-1730-1743-and-seven-20261114-r1\\seven\\evaluation\\uf-20261114-replace1741-baseline-trust\\evidence-map.json",
+      "path": "evidence-map.json",
+      "sha256": "4cca7f63601c1814fa6aa63415fb6f7a9dda06778c5e6b82d3ffa20ba46dcac0"
+    },
+    {
+      "source": "D:\\hc\\userFeedback\\cache\\repairs-126-1730-1743-and-seven-20261114-r1\\seven\\evaluation\\uf-20261114-replace1741-baseline-trust\\model-final-answer.txt",
+      "path": "model-final-answer.txt",
+      "sha256": "f0bb1097f025d414c50a974a9adec6f995b8dbf4622e83468f4ed41996ee3330"
+    },
+    {
+      "source": "D:\\hc\\userFeedback\\cache\\repairs-126-1730-1743-and-seven-20261114-r1\\seven\\evaluation\\uf-20261114-replace1741-baseline-trust\\test-results.json",
+      "path": "test-results.json",
+      "sha256": "32a6bb9f470a1e15fde667df81f4e0aa28699733a3990e9c7e022204151f78f5"
+    },
+    {
+      "source": "D:\\hc\\userFeedback\\cache\\repairs-126-1730-1743-and-seven-20261114-r1\\seven\\evaluation\\uf-20261114-replace1741-baseline-trust\\evaluation-qc.json",
+      "path": "evaluation-qc.json",
+      "sha256": "d903746f41811aeda29fe27b2fc5a613b205e0af1009f62424db520eae477de4"
+    },
+    {
+      "source": "D:\\hc\\userFeedback\\cache\\repairs-126-1730-1743-and-seven-20261114-r1\\seven\\evaluation\\uf-20261114-replace1741-baseline-trust\\verification\\acceptance-r1\\actual-import.json",
+      "path": "verification/acceptance-r1/actual-import.json",
+      "sha256": "b722883c2625e2fb1db47e33ae895eb792ae152f0bcfe9a91335a55b2d88beaf"
+    },
+    {
+      "source": "D:\\hc\\userFeedback\\cache\\repairs-126-1730-1743-and-seven-20261114-r1\\seven\\evaluation\\uf-20261114-replace1741-baseline-trust\\verification\\acceptance-r1\\actual-import.stderr.log",
+      "path": "verification/acceptance-r1/actual-import.stderr.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "source": "D:\\hc\\userFeedback\\cache\\repairs-126-1730-1743-and-seven-20261114-r1\\seven\\evaluation\\uf-20261114-replace1741-baseline-trust\\verification\\acceptance-r1\\actual-import.stdout.log",
+      "path": "verification/acceptance-r1/actual-import.stdout.log",
+      "sha256": "45eaccfe652b01079036202a5a151bab2db52beb4d3445a59aa85095a94035de"
+    },
+    {
+      "source": "D:\\hc\\userFeedback\\cache\\repairs-126-1730-1743-and-seven-20261114-r1\\seven\\evaluation\\uf-20261114-replace1741-baseline-trust\\verification\\acceptance-r1\\core-results.xml",
+      "path": "verification/acceptance-r1/core-results.xml",
+      "sha256": "25285c91420de003e85f1e610feb84715ac353de35f4afa3070957f1b8bca73b"
+    },
+    {
+      "source": "D:\\hc\\userFeedback\\cache\\repairs-126-1730-1743-and-seven-20261114-r1\\seven\\evaluation\\uf-20261114-replace1741-baseline-trust\\verification\\acceptance-r1\\dependency-lock.json",
+      "path": "verification/acceptance-r1/dependency-lock.json",
+      "sha256": "3c7f86b8cbba3dbdcac9c6be348c181165808796a84b4b7939814254398ec1b9"
+    },
+    {
+      "source": "D:\\hc\\userFeedback\\cache\\repairs-126-1730-1743-and-seven-20261114-r1\\seven\\evaluation\\uf-20261114-replace1741-baseline-trust\\verification\\acceptance-r1\\dependency-lock.stderr.log",
+      "path": "verification/acceptance-r1/dependency-lock.stderr.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "source": "D:\\hc\\userFeedback\\cache\\repairs-126-1730-1743-and-seven-20261114-r1\\seven\\evaluation\\uf-20261114-replace1741-baseline-trust\\verification\\acceptance-r1\\dependency-lock.stdout.log",
+      "path": "verification/acceptance-r1/dependency-lock.stdout.log",
+      "sha256": "1ad19aaf8e3cd690b3a24acb989153f51e0f257a44de465d7650e5cde7aabab7"
+    },
+    {
+      "source": "D:\\hc\\userFeedback\\cache\\repairs-126-1730-1743-and-seven-20261114-r1\\seven\\evaluation\\uf-20261114-replace1741-baseline-trust\\verification\\acceptance-r1\\independent-acceptance.json",
+      "path": "verification/acceptance-r1/independent-acceptance.json",
+      "sha256": "575b757e21c5e50375cfd46f7d4f73bc81bd2ae407aa8b389af3f3f638a728dd"
+    },
+    {
+      "source": "D:\\hc\\userFeedback\\cache\\repairs-126-1730-1743-and-seven-20261114-r1\\seven\\evaluation\\uf-20261114-replace1741-baseline-trust\\verification\\acceptance-r1\\independent-acceptance.stderr.log",
+      "path": "verification/acceptance-r1/independent-acceptance.stderr.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "source": "D:\\hc\\userFeedback\\cache\\repairs-126-1730-1743-and-seven-20261114-r1\\seven\\evaluation\\uf-20261114-replace1741-baseline-trust\\verification\\acceptance-r1\\independent-acceptance.stdout.log",
+      "path": "verification/acceptance-r1/independent-acceptance.stdout.log",
+      "sha256": "ec70d6a8bb8059c42bf93f7dec9667ebb1ec617bfb00d6d744521297569d7de2"
+    },
+    {
+      "source": "D:\\hc\\userFeedback\\cache\\repairs-126-1730-1743-and-seven-20261114-r1\\seven\\evaluation\\uf-20261114-replace1741-baseline-trust\\verification\\acceptance-r1\\independent-results.xml",
+      "path": "verification/acceptance-r1/independent-results.xml",
+      "sha256": "77b23384503d06fc8e35f4e7784f3e4dce1f2b84ad089d7b5b255c0810447656"
+    },
+    {
+      "source": "D:\\hc\\userFeedback\\cache\\repairs-126-1730-1743-and-seven-20261114-r1\\seven\\evaluation\\uf-20261114-replace1741-baseline-trust\\verification\\acceptance-r1\\replay-proof.json",
+      "path": "verification/acceptance-r1/replay-proof.json",
+      "sha256": "dc3d16330a0c9a0f3018fc8375c9bd0764e6fa8613260440a3352eb74b31cd42"
+    },
+    {
+      "source": "D:\\hc\\userFeedback\\cache\\repairs-126-1730-1743-and-seven-20261114-r1\\seven\\evaluation\\uf-20261114-replace1741-baseline-trust\\verification\\acceptance-r1\\reviewed-spec.json",
+      "path": "verification/acceptance-r1/reviewed-spec.json",
+      "sha256": "8af33c793dfb656013359f5070e44c53375d7ddd1251286f4f88cddc826c835a"
+    },
+    {
+      "source": "D:\\hc\\userFeedback\\cache\\repairs-126-1730-1743-and-seven-20261114-r1\\seven\\evaluation\\uf-20261114-replace1741-baseline-trust\\verification\\acceptance-r1\\test_untrusted_baseline_review.py",
+      "path": "verification/acceptance-r1/test_untrusted_baseline_review.py",
+      "sha256": "b763916a44feb425581cc9275ea76f46fe7bec9de721e907e3c363d5cd447724"
+    },
+    {
+      "source": "D:\\hc\\userFeedback\\cache\\repairs-126-1730-1743-and-seven-20261114-r1\\seven\\evaluation\\uf-20261114-replace1741-baseline-trust\\verification\\acceptance-r1\\upstream-core.json",
+      "path": "verification/acceptance-r1/upstream-core.json",
+      "sha256": "16d65ab0b1f6a0b61046f0dab5caaffcd119150de03d60cc34db0ac6642106ca"
+    },
+    {
+      "source": "D:\\hc\\userFeedback\\cache\\repairs-126-1730-1743-and-seven-20261114-r1\\seven\\evaluation\\uf-20261114-replace1741-baseline-trust\\verification\\acceptance-r1\\upstream-core.stderr.log",
+      "path": "verification/acceptance-r1/upstream-core.stderr.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "source": "D:\\hc\\userFeedback\\cache\\repairs-126-1730-1743-and-seven-20261114-r1\\seven\\evaluation\\uf-20261114-replace1741-baseline-trust\\verification\\acceptance-r1\\upstream-core.stdout.log",
+      "path": "verification/acceptance-r1/upstream-core.stdout.log",
+      "sha256": "2e67ac4d752ac71565a38edae59bc006bfb0110503ced33bc7e18e9fd0f636e6"
+    },
+    {
+      "source": "D:\\hc\\userFeedback\\cache\\repairs-126-1730-1743-and-seven-20261114-r1\\seven\\evaluation\\uf-20261114-replace1741-baseline-trust\\verification\\explicit-null-r3\\actual-import.json",
+      "path": "verification/explicit-null-r3/actual-import.json",
+      "sha256": "6cd5a6700bf57a9f6fecb9f81831c11ed70ac6317735cb84418867b082b3e743"
+    },
+    {
+      "source": "D:\\hc\\userFeedback\\cache\\repairs-126-1730-1743-and-seven-20261114-r1\\seven\\evaluation\\uf-20261114-replace1741-baseline-trust\\verification\\explicit-null-r3\\actual-import.stderr.log",
+      "path": "verification/explicit-null-r3/actual-import.stderr.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "source": "D:\\hc\\userFeedback\\cache\\repairs-126-1730-1743-and-seven-20261114-r1\\seven\\evaluation\\uf-20261114-replace1741-baseline-trust\\verification\\explicit-null-r3\\actual-import.stdout.log",
+      "path": "verification/explicit-null-r3/actual-import.stdout.log",
+      "sha256": "2fc2820aa4ef79acf451a55ee1ec1d7c5e4aaf1e1553323d61e079a38e9c28ba"
+    },
+    {
+      "source": "D:\\hc\\userFeedback\\cache\\repairs-126-1730-1743-and-seven-20261114-r1\\seven\\evaluation\\uf-20261114-replace1741-baseline-trust\\verification\\explicit-null-r3\\dependency-lock.json",
+      "path": "verification/explicit-null-r3/dependency-lock.json",
+      "sha256": "929535364caaa277130a6a35f07c033401d57067c021d3ec296486368f271e6f"
+    },
+    {
+      "source": "D:\\hc\\userFeedback\\cache\\repairs-126-1730-1743-and-seven-20261114-r1\\seven\\evaluation\\uf-20261114-replace1741-baseline-trust\\verification\\explicit-null-r3\\dependency-lock.stderr.log",
+      "path": "verification/explicit-null-r3/dependency-lock.stderr.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "source": "D:\\hc\\userFeedback\\cache\\repairs-126-1730-1743-and-seven-20261114-r1\\seven\\evaluation\\uf-20261114-replace1741-baseline-trust\\verification\\explicit-null-r3\\dependency-lock.stdout.log",
+      "path": "verification/explicit-null-r3/dependency-lock.stdout.log",
+      "sha256": "1ad19aaf8e3cd690b3a24acb989153f51e0f257a44de465d7650e5cde7aabab7"
+    },
+    {
+      "source": "D:\\hc\\userFeedback\\cache\\repairs-126-1730-1743-and-seven-20261114-r1\\seven\\evaluation\\uf-20261114-replace1741-baseline-trust\\verification\\explicit-null-r3\\explicit-null-validation.json",
+      "path": "verification/explicit-null-r3/explicit-null-validation.json",
+      "sha256": "776522c82de0f6ea2e45c7824d780ba5b2e1cd4704eed951f05677f853ebcb03"
+    },
+    {
+      "source": "D:\\hc\\userFeedback\\cache\\repairs-126-1730-1743-and-seven-20261114-r1\\seven\\evaluation\\uf-20261114-replace1741-baseline-trust\\verification\\explicit-null-r3\\explicit-null-validation.stderr.log",
+      "path": "verification/explicit-null-r3/explicit-null-validation.stderr.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "source": "D:\\hc\\userFeedback\\cache\\repairs-126-1730-1743-and-seven-20261114-r1\\seven\\evaluation\\uf-20261114-replace1741-baseline-trust\\verification\\explicit-null-r3\\explicit-null-validation.stdout.log",
+      "path": "verification/explicit-null-r3/explicit-null-validation.stdout.log",
+      "sha256": "c88cd66ae02446860057340707d92deac0ef87fd6b3c837b75809fc73cd15b0d"
+    },
+    {
+      "source": "D:\\hc\\userFeedback\\cache\\repairs-126-1730-1743-and-seven-20261114-r1\\seven\\evaluation\\uf-20261114-replace1741-baseline-trust\\verification\\explicit-null-r3\\null-results.xml",
+      "path": "verification/explicit-null-r3/null-results.xml",
+      "sha256": "8392fa367dd5588614d30fc593ae3f0134dd9ed870e4f043218d041b46c744a1"
+    },
+    {
+      "source": "D:\\hc\\userFeedback\\cache\\repairs-126-1730-1743-and-seven-20261114-r1\\seven\\evaluation\\uf-20261114-replace1741-baseline-trust\\verification\\explicit-null-r3\\replay-proof.json",
+      "path": "verification/explicit-null-r3/replay-proof.json",
+      "sha256": "a0271f175fab51dde98ff68d69ea4703d5632f1fb193ce2376e429c70addfbdc"
+    },
+    {
+      "source": "D:\\hc\\userFeedback\\cache\\repairs-126-1730-1743-and-seven-20261114-r1\\seven\\evaluation\\uf-20261114-replace1741-baseline-trust\\verification\\explicit-null-r3\\reviewed-spec.json",
+      "path": "verification/explicit-null-r3/reviewed-spec.json",
+      "sha256": "b932b51447fa1acb41c889534d5757e4803b0ae861e35a4bf68ce1382ea358cc"
+    },
+    {
+      "source": "D:\\hc\\userFeedback\\cache\\repairs-126-1730-1743-and-seven-20261114-r1\\seven\\evaluation\\uf-20261114-replace1741-baseline-trust\\verification\\explicit-null-r3\\test_baseline_explicit_null_review.py",
+      "path": "verification/explicit-null-r3/test_baseline_explicit_null_review.py",
+      "sha256": "07c598f3fe2dc189d54271f07df1439c3bfcb660cc9357b9ed3dcc962a0765fc"
+    },
+    {
+      "source": "D:\\hc\\userFeedback\\cache\\repairs-126-1730-1743-and-seven-20261114-r1\\seven\\evaluation\\uf-20261114-replace1741-baseline-trust\\verification\\git-replay-r2\\actual-import.json",
+      "path": "verification/git-replay-r2/actual-import.json",
+      "sha256": "56003943dacb3e09df20cf39fea67a1efde88ec81290c0f19aea15c79c9d27c8"
+    },
+    {
+      "source": "D:\\hc\\userFeedback\\cache\\repairs-126-1730-1743-and-seven-20261114-r1\\seven\\evaluation\\uf-20261114-replace1741-baseline-trust\\verification\\git-replay-r2\\actual-import.stderr.log",
+      "path": "verification/git-replay-r2/actual-import.stderr.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "source": "D:\\hc\\userFeedback\\cache\\repairs-126-1730-1743-and-seven-20261114-r1\\seven\\evaluation\\uf-20261114-replace1741-baseline-trust\\verification\\git-replay-r2\\actual-import.stdout.log",
+      "path": "verification/git-replay-r2/actual-import.stdout.log",
+      "sha256": "623aee97d3ab233c4ddd11d59d63d8f7ca39bcf60a5e43421d90ad577a0a65b9"
+    },
+    {
+      "source": "D:\\hc\\userFeedback\\cache\\repairs-126-1730-1743-and-seven-20261114-r1\\seven\\evaluation\\uf-20261114-replace1741-baseline-trust\\verification\\git-replay-r2\\baseline-scan-example.py",
+      "path": "verification/git-replay-r2/baseline-scan-example.py",
+      "sha256": "03e8150daf6aebc024ccd1144f2ede30b6acbaaa8695a8f5ace0321ebe290d97"
+    },
+    {
+      "source": "D:\\hc\\userFeedback\\cache\\repairs-126-1730-1743-and-seven-20261114-r1\\seven\\evaluation\\uf-20261114-replace1741-baseline-trust\\verification\\git-replay-r2\\core-results.xml",
+      "path": "verification/git-replay-r2/core-results.xml",
+      "sha256": "9d10b4af2a6cbaa86af7bd4fde362c7fdeb736fdc8cd8b88825a5bff6aa2afbb"
+    },
+    {
+      "source": "D:\\hc\\userFeedback\\cache\\repairs-126-1730-1743-and-seven-20261114-r1\\seven\\evaluation\\uf-20261114-replace1741-baseline-trust\\verification\\git-replay-r2\\dependency-lock.json",
+      "path": "verification/git-replay-r2/dependency-lock.json",
+      "sha256": "5e30948223c69539bc5d54e23f5eb575403291ae09e2fd36e0beddc4f50d7855"
+    },
+    {
+      "source": "D:\\hc\\userFeedback\\cache\\repairs-126-1730-1743-and-seven-20261114-r1\\seven\\evaluation\\uf-20261114-replace1741-baseline-trust\\verification\\git-replay-r2\\dependency-lock.stderr.log",
+      "path": "verification/git-replay-r2/dependency-lock.stderr.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "source": "D:\\hc\\userFeedback\\cache\\repairs-126-1730-1743-and-seven-20261114-r1\\seven\\evaluation\\uf-20261114-replace1741-baseline-trust\\verification\\git-replay-r2\\dependency-lock.stdout.log",
+      "path": "verification/git-replay-r2/dependency-lock.stdout.log",
+      "sha256": "1ad19aaf8e3cd690b3a24acb989153f51e0f257a44de465d7650e5cde7aabab7"
+    },
+    {
+      "source": "D:\\hc\\userFeedback\\cache\\repairs-126-1730-1743-and-seven-20261114-r1\\seven\\evaluation\\uf-20261114-replace1741-baseline-trust\\verification\\git-replay-r2\\git-add.json",
+      "path": "verification/git-replay-r2/git-add.json",
+      "sha256": "0747a4c87114721c3600dfd76ef3b2496c2ca1501a2a190c6a33b9cc2ff175e4"
+    },
+    {
+      "source": "D:\\hc\\userFeedback\\cache\\repairs-126-1730-1743-and-seven-20261114-r1\\seven\\evaluation\\uf-20261114-replace1741-baseline-trust\\verification\\git-replay-r2\\git-add.stderr.log",
+      "path": "verification/git-replay-r2/git-add.stderr.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "source": "D:\\hc\\userFeedback\\cache\\repairs-126-1730-1743-and-seven-20261114-r1\\seven\\evaluation\\uf-20261114-replace1741-baseline-trust\\verification\\git-replay-r2\\git-add.stdout.log",
+      "path": "verification/git-replay-r2/git-add.stdout.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "source": "D:\\hc\\userFeedback\\cache\\repairs-126-1730-1743-and-seven-20261114-r1\\seven\\evaluation\\uf-20261114-replace1741-baseline-trust\\verification\\git-replay-r2\\git-init.json",
+      "path": "verification/git-replay-r2/git-init.json",
+      "sha256": "adfff3806bdb6ecc7a85e428849ea514884e3494145c5ea56d64f508b29afc8a"
+    },
+    {
+      "source": "D:\\hc\\userFeedback\\cache\\repairs-126-1730-1743-and-seven-20261114-r1\\seven\\evaluation\\uf-20261114-replace1741-baseline-trust\\verification\\git-replay-r2\\git-init.stderr.log",
+      "path": "verification/git-replay-r2/git-init.stderr.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "source": "D:\\hc\\userFeedback\\cache\\repairs-126-1730-1743-and-seven-20261114-r1\\seven\\evaluation\\uf-20261114-replace1741-baseline-trust\\verification\\git-replay-r2\\git-init.stdout.log",
+      "path": "verification/git-replay-r2/git-init.stdout.log",
+      "sha256": "74bc6bc5f411ac3cdaedcfee3d4e6686d680c0726cc58719eb11e5ef5ce277ff"
+    },
+    {
+      "source": "D:\\hc\\userFeedback\\cache\\repairs-126-1730-1743-and-seven-20261114-r1\\seven\\evaluation\\uf-20261114-replace1741-baseline-trust\\verification\\git-replay-r2\\replay-proof.json",
+      "path": "verification/git-replay-r2/replay-proof.json",
+      "sha256": "5a7b94cc63cfe8b1fc8bacad8151a17bc2d728d3eb890a71fc1fe3cb625220c3"
+    },
+    {
+      "source": "D:\\hc\\userFeedback\\cache\\repairs-126-1730-1743-and-seven-20261114-r1\\seven\\evaluation\\uf-20261114-replace1741-baseline-trust\\verification\\git-replay-r2\\reproduction-notes.md",
+      "path": "verification/git-replay-r2/reproduction-notes.md",
+      "sha256": "42ef7a14b5039bf0d1873acbccfab1f7c7ddc3d91f1d33a060fdd0e2f2bd752a"
+    },
+    {
+      "source": "D:\\hc\\userFeedback\\cache\\repairs-126-1730-1743-and-seven-20261114-r1\\seven\\evaluation\\uf-20261114-replace1741-baseline-trust\\verification\\git-replay-r2\\reviewed-spec.json",
+      "path": "verification/git-replay-r2/reviewed-spec.json",
+      "sha256": "44b624762762fe04eee73f4534d6a6892c1d1e96d7680b50bcab19c1bc251db0"
+    },
+    {
+      "source": "D:\\hc\\userFeedback\\cache\\repairs-126-1730-1743-and-seven-20261114-r1\\seven\\evaluation\\uf-20261114-replace1741-baseline-trust\\verification\\git-replay-r2\\test_untrusted_baseline_review.py",
+      "path": "verification/git-replay-r2/test_untrusted_baseline_review.py",
+      "sha256": "b763916a44feb425581cc9275ea76f46fe7bec9de721e907e3c363d5cd447724"
+    },
+    {
+      "source": "D:\\hc\\userFeedback\\cache\\repairs-126-1730-1743-and-seven-20261114-r1\\seven\\evaluation\\uf-20261114-replace1741-baseline-trust\\verification\\git-replay-r2\\upstream-core.json",
+      "path": "verification/git-replay-r2/upstream-core.json",
+      "sha256": "604bda871294cf41a7d6700e4dadfcc4bf7ab0b3c00a80bbb13fe13897aa5ab0"
+    },
+    {
+      "source": "D:\\hc\\userFeedback\\cache\\repairs-126-1730-1743-and-seven-20261114-r1\\seven\\evaluation\\uf-20261114-replace1741-baseline-trust\\verification\\git-replay-r2\\upstream-core.stderr.log",
+      "path": "verification/git-replay-r2/upstream-core.stderr.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "source": "D:\\hc\\userFeedback\\cache\\repairs-126-1730-1743-and-seven-20261114-r1\\seven\\evaluation\\uf-20261114-replace1741-baseline-trust\\verification\\git-replay-r2\\upstream-core.stdout.log",
+      "path": "verification/git-replay-r2/upstream-core.stdout.log",
+      "sha256": "7a656fd78c6b2d93673f2acaf5bb54fd09e56cf999195bae8a6b59931c21184f"
+    },
+    {
+      "source": "D:\\hc\\userFeedback\\cache\\repairs-126-1730-1743-and-seven-20261114-r1\\seven\\evaluation\\uf-20261114-replace1741-baseline-trust\\verification\\recorded-runtime-r1\\actual-commands.json",
+      "path": "verification/recorded-runtime-r1/actual-commands.json",
+      "sha256": "12ea2d62a02e2749ce9f985185898f5c1d57c455138c47dbaaa3e1b237c463a3"
+    },
+    {
+      "source": "D:\\hc\\userFeedback\\cache\\repairs-126-1730-1743-and-seven-20261114-r1\\seven\\evaluation\\uf-20261114-replace1741-baseline-trust\\verification\\recorded-runtime-r1\\boundaries-output.log",
+      "path": "verification/recorded-runtime-r1/boundaries-output.log",
+      "sha256": "99775868b7c7bb8ff5cf4675ad83bd8888a4c1fd88c727db3eb5be3f55eadd38"
+    },
+    {
+      "source": "D:\\hc\\userFeedback\\cache\\repairs-126-1730-1743-and-seven-20261114-r1\\seven\\evaluation\\uf-20261114-replace1741-baseline-trust\\verification\\recorded-runtime-r1\\feature-tests-output.log",
+      "path": "verification/recorded-runtime-r1/feature-tests-output.log",
+      "sha256": "68caea48a2e087c8cf31b08ae717448f5b28d3e191b78cedb48bbe93b2417b8b"
+    },
+    {
+      "source": "D:\\hc\\userFeedback\\cache\\repairs-126-1730-1743-and-seven-20261114-r1\\seven\\evaluation\\uf-20261114-replace1741-baseline-trust\\verification\\recorded-runtime-r1\\scan-example-output.log",
+      "path": "verification/recorded-runtime-r1/scan-example-output.log",
+      "sha256": "d5a0a50f86919f0de71275f7f676daa144002db50ad53b9e2b10e547e395607f"
+    },
+    {
+      "source": "D:\\hc\\userFeedback\\cache\\repairs-126-1730-1743-and-seven-20261114-r1\\seven\\evaluation\\uf-20261114-replace1741-baseline-trust\\verification\\recorded-runtime-r1\\spec.json",
+      "path": "verification/recorded-runtime-r1/spec.json",
+      "sha256": "0d4bc08654ec20bc182ce91345330a2dd00f2636114cd92181705b0fa941abb2"
+    },
+    {
+      "source": "D:\\hc\\userFeedback\\cache\\repairs-126-1730-1743-and-seven-20261114-r1\\seven\\evaluation\\uf-20261114-replace1741-baseline-trust\\acceptance-contract-review.json",
+      "path": "acceptance-contract-review.json",
+      "sha256": "69df6385970c8bb52c35f96a5f87656cd50efd53c2712bbabce4e2521a018858"
+    }
+  ],
+  "reproduction_readme": "detect-secrets untrusted PR baseline approval boundary. Independent22 pass, upstream core160 pass, recorded original feature suite62 pass; all offline. Reproduce with exact dependency lock, PYTHONPATH and local Git index as recorded in git-replay-r2 commands. acceptance-r1 core failures are missing replay Git metadata, not product defects. explicit-null-r3 was an exploratory stronger assertion not required by the prompt and not scored; see acceptance-contract-review.json. Demo is a separate reviewer helper, model source unchanged.",
+  "no_model_source_edits": true,
+  "native_trace_included": false
+}

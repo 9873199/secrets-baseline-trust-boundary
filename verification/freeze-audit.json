@@ -1,0 +1,28 @@
+{
+  "time": "2026-11-14T12:57:12+08:00",
+  "uid": 1741,
+  "status": "PASS",
+  "single_native_trace": "D:\\hc\\userFeedback\\cache\\runs\\uf-20261114-replace1741-baseline-trust\\frozen\\trajectory-original.jsonl",
+  "trace_sha256": "aa6a310b64ef79f79a86c92d4268c70fa2fa50360316d50f54f5075c958ee674",
+  "session_id": "fb068218-8c22-4aa2-a9e6-708a93d3737e",
+  "prompt_id": "642e7dc6-bc15-4bc7-a63a-7e431cf7046c",
+  "exact_single_prompt": true,
+  "native_models": [
+    "auto_model/urm"
+  ],
+  "native_efforts": [
+    "high"
+  ],
+  "three_explicit_high_settings": true,
+  "native_success": true,
+  "frozen_files_unchanged": true,
+  "private_reasoning_excluded": true,
+  "event_counts": {
+    "queue-operation": 4,
+    "user": 93,
+    "attachment": 74,
+    "atis-latch": 21,
+    "assistant": 189,
+    "last-prompt": 21
+  }
+}

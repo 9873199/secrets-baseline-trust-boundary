@@ -1,0 +1,38 @@
+{
+  "uid": 1741,
+  "run_id": "uf-20261114-replace1741-baseline-trust",
+  "revision": "explicit-null-r3",
+  "reviewed": true,
+  "reviewer": "Codex primary reviewer, AI-assisted",
+  "frozen_trace_sha256": "aa6a310b64ef79f79a86c92d4268c70fa2fa50360316d50f54f5075c958ee674",
+  "product_modules": [
+    "detect_secrets",
+    "detect_secrets.core.untrusted_baseline"
+  ],
+  "support_files": [
+    {
+      "source": "D:\\hc\\userFeedback\\cache\\resume-seven-20261114-r2\\test_baseline_explicit_null_review.py",
+      "path": "test_baseline_explicit_null_review.py",
+      "sha256": "07c598f3fe2dc189d54271f07df1439c3bfcb660cc9357b9ed3dcc962a0765fc"
+    }
+  ],
+  "commands": [
+    {
+      "name": "explicit-null-validation",
+      "argv": [
+        "{python}",
+        "-B",
+        "-m",
+        "pytest",
+        "{verification}/test_baseline_explicit_null_review.py",
+        "--confcutdir={verification}",
+        "-q",
+        "--tb=short",
+        "--disable-socket",
+        "-p",
+        "no:cacheprovider",
+        "--junitxml={verification}/null-results.xml"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+F                                                                        [100%]
+================================== FAILURES ===================================
+______________ test_explicit_null_is_not_a_positive_line_number _______________
+..\test_baseline_explicit_null_review.py:13: in test_explicit_null_is_not_a_positive_line_number
+    with pytest.raises(InvalidBaselineError):
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+E   Failed: DID NOT RAISE <class 'detect_secrets.exceptions.InvalidBaselineError'>
+- generated xml file: D:\hc\userFeedback\cache\repairs-126-1730-1743-and-seven-20261114-r1\seven\evaluation\uf-20261114-replace1741-baseline-trust\verification\explicit-null-r3\null-results.xml -
+=========================== short test summary info ===========================
+FAILED ..\test_baseline_explicit_null_review.py::test_explicit_null_is_not_a_positive_line_number
+1 failed in 0.89s

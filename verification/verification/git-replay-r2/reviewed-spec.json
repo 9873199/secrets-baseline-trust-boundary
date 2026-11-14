@@ -1,0 +1,54 @@
+{
+  "uid": 1741,
+  "run_id": "uf-20261114-replace1741-baseline-trust",
+  "revision": "git-replay-r2",
+  "reviewed": true,
+  "reviewer": "Codex primary reviewer, AI-assisted",
+  "frozen_trace_sha256": "aa6a310b64ef79f79a86c92d4268c70fa2fa50360316d50f54f5075c958ee674",
+  "product_modules": [
+    "detect_secrets",
+    "detect_secrets.core.untrusted_baseline"
+  ],
+  "support_files": [
+    {
+      "source": "D:\\hc\\userFeedback\\cache\\resume-seven-20261114-r2\\test_untrusted_baseline_review_draft.py",
+      "path": "test_untrusted_baseline_review.py",
+      "sha256": "b763916a44feb425581cc9275ea76f46fe7bec9de721e907e3c363d5cd447724"
+    }
+  ],
+  "commands": [
+    {
+      "name": "git-init",
+      "argv": [
+        "git",
+        "init"
+      ]
+    },
+    {
+      "name": "git-add",
+      "argv": [
+        "git",
+        "-c",
+        "core.autocrlf=false",
+        "add",
+        "--all"
+      ]
+    },
+    {
+      "name": "upstream-core",
+      "argv": [
+        "{python}",
+        "-B",
+        "-m",
+        "pytest",
+        "tests/core",
+        "-q",
+        "--tb=short",
+        "--disable-socket",
+        "-p",
+        "no:cacheprovider",
+        "--junitxml={verification}/core-results.xml"
+      ]
+    }
+  ]
+}
