@@ -25,6 +25,17 @@ If you love `detect-secrets`, please star our project on GitHub to show your sup
 [@xxxx]: https://github.com/xxxx
 -->
 
+### Unreleased
+
+#### :tada: New Features
+- Added `detect_secrets.core.untrusted_baseline.load_untrusted_baseline` for accepting
+  baseline documents from untrusted contributors without granting them configuration
+  authority. It validates the candidate against an approved `SecretsCollection` and only
+  returns findings matching on filename, detector type and hashed secret; plugin/filter
+  paths, exclusion regexes, wordlist/model paths and audit flags in the candidate are
+  ignored, global settings and caches are never touched, and malformed input raises
+  `InvalidBaselineError` atomically. See `docs/untrusted-baselines.md`.
+
 ### v1.5.0
 ##### May 6th, 2024
 

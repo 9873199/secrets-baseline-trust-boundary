@@ -205,6 +205,31 @@ with transient_settings({
     secrets.scan_file('test_data/config.ini')
 ```
 
+### Handling an Untrusted Baseline
+
+When a baseline file can be modified by an external contributor (e.g. a `.secrets.baseline`
+attached to a pull request), it must not be loaded with the regular `baseline.load`: that
+function configures plugins and filters from the document, including importing Python paths
+it references. Instead, load your organization's approved baseline from a protected branch
+with the trusted loader, and use `load_untrusted_baseline` to check the candidate document
+against it:
+
+```python
+from detect_secrets.core.baseline import load as load_trusted_baseline
+from detect_secrets.core.untrusted_baseline import load_untrusted_baseline
+
+approved = load_trusted_baseline(approved_baseline_json)   # from the protected branch
+exemptions = load_untrusted_baseline(candidate_baseline_json, approved)
+
+new_findings = fresh_scan - exemptions
+```
+
+The candidate document never configures a scan: its plugin/filter paths, exclusion regexes
+and wordlist/model paths are ignored, its audit flags cannot override approved verdicts,
+and a finding is only exempted when filename, detector type and hashed secret all match an
+approved finding. See [docs/untrusted-baselines.md](docs/untrusted-baselines.md) for the
+full contract and validation rules.
+
 ## Installation
 
 ```bash
